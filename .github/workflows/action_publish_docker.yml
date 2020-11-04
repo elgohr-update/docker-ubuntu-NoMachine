@@ -1,5 +1,5 @@
 name: Publish Docker - Gitlab_Development_CABP
-on: [schedule]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
